@@ -1,0 +1,165 @@
+body
+{
+	font-family: 'Trebuchet MS', "Times new roman", Verdana, Arial, sans-serif;
+	background-image: linear-gradient(180deg, #3588cc 0%, #f76707 120%);
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+
+}
+
+.box
+{
+	background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 5px 5px rgba(0,0,0, 0.3);
+    border-radius: 5px;
+
+}
+header
+{
+	display: flex;
+	background-color: rgba(12, 58, 102, 0.4);
+	box-shadow: 0 5px 5px rgba(0,0,0, 0.3);
+}
+
+header img
+{
+	width: 130px;
+	height: 130px;
+	margin: auto;
+}
+
+#entete 
+{
+	display: flex;
+	flex-direction : column;
+	
+	flex: 1;
+}
+
+
+
+#menu ul
+{
+	list-style-type: none;
+	display: flex;
+	margin-right: 100px;
+	flex-direction : row;
+	justify-content: flex-end;
+}
+
+#menu ul a
+{
+	color:  white;
+	margin-right: 20px;
+	padding-right: 20px;
+	margin-left: 20px;
+	padding-left: 20px;
+	font: 
+}
+
+h1
+{
+	margin: auto;
+	margin-left: 20px;
+	color: white;
+}
+
+h2
+{
+	border-bottom: 2px solid grey;	
+	text-align: center;
+	color: white;
+}
+
+
+h3
+{
+	margin: auto;
+	border-bottom: 2px solid grey;	
+	text-align: center;
+	color: white;
+	background-color: rgb(30, 121, 168);
+	border-radius: 10px;
+}
+
+h4
+{
+	color: rgb(255, 255, 255);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+	margin-left: 5px;
+}
+
+#contenu
+{
+	display: flex;
+	padding: 15px;
+	margin: 25px 50px;
+	color: white;
+}
+
+#menu2
+{
+	width: 18%;
+	max-height: 500px;
+	margin-top: 5px;
+	margin-bottom: 100px;
+	position: sticky;
+	top: 30px;
+	
+}
+
+#menu2 ul
+{
+	list-style-type: none;
+	margin-left: 0;
+	margin-top: 0;
+	padding-left: 0;
+	text-align: center;
+}
+
+#menu2 ul a
+{
+	color: rgb(114, 193, 226);
+}
+
+#corps
+{
+	width: 75%;
+	margin-left: 10px;
+	padding: 5px;
+}
+
+#corps article
+{
+	text-align: justify;
+	border-radius: 10px;
+	margin-bottom: 50px;
+}
+
+
+
+#texte
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+article p
+{
+	padding: 5px;
+}
+
+footer
+{
+	color: rgba(255, 255, 255, 0.7);
+	height: 130px;
+	font-size: small;
+	text-align: center;
+	display: flex; 
+	justify-content: space-around;
+	background-color: rgba(202, 82, 30, 0.4);
+	box-shadow: 5px -5px 5px rgba(0,0,0, 0.3);
+	
+}
+

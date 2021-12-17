@@ -1,0 +1,48 @@
+.table{
+	font-size: 1.75em;
+}
+.tableau{
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+form{
+		margin-top: 100px;
+        margin-bottom: 100px;
+}
+nav{
+	font-size: 1.75em;!important
+}
+
+// NAV
+.nav-item, .navbar-brand{
+    background-color: transparent;
+    color: black;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-item a{
+    color: black;
+}
+.nav-item a:hover {
+    text-decoration: none;
+    color: #007bff;
+    background-color: aliceblue;
+}
+
+// FOOTER
+section{
+   /* background-color: black;!important*/
+   padding-top: 5px;
+   color: white;!important
+}
+article ul li{
+	text-decoration: none;
+    list-style: none
+}
+
+/*footer div section .col-1, footer div section .col-2, 
+footer div section .col-3, footer div section .col-4{
+	width: 30%; !important
+}*/
